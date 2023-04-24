@@ -198,3 +198,19 @@ hr{
 .titulo2 {
   text-align: center;
 }
+.textoimagen {
+  background-image: url(https://a.cdn-hotels.com/gdcs/production121/d1620/e8dc88bd-552b-41f6-9f5b-9681f9ee6b0a.jpg);
+  background-size: cover;
+  background-position-y: center;
+  padding: 0;
+  margin: 0;
+  height: 500px;
+}
+.backgroundimage {
+  text-shadow: #000000 ;
+  text-align: center;
+  padding-top:  200px;
+  font-family:'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: 100;
+}
