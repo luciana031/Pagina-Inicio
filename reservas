@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reservasdelChef</title>
+    <link rel="stylesheet" href="reservas.css">
+</head>
+<body>
+<div class="contenedor">
+    <div class="wrap">
+      <h3>Reservad tu Cena en Del Chef</h3>
+      <div class="forms_wrap-2">
+  
+      <div class="form-header-primary">
+      <h4><i class="calendar"></i></h4>
+      </div>
+    
+    <form method="post" action="/" id="contact">
+      <div class="form-body">
+      
+       <!-- los elementos del formulario van aqui -->                                                
+        <div class="section">
+  <label for="guestname" class="field-label">Nombre</label>
+  <label for="guestname" class="field prepend-icon">
+    <input type="text" name="guestname" id="guestname" class="gui-input" required="" placeholder="John Doe/Jane Doe">
+    <span class="field-icon"><i class="fa fa-user"></i></span>  
+  </label>
+  </div>
+              
+  <div class="frm-row">
+  <div class="section colm colm6">
+    <label for="guestemail" class="field-label">Email</label>
+    <label for="guestemail" class="field prepend-icon">
+      <input type="email" name="guestemail" id="guestemail" class="gui-input" required="" placeholder="john@something.com">
+      <span class="field-icon"><i class="fa fa-envelope"></i></span>  
+    </label>
+  </div>
+  
+  <div class="section colm colm6">
+    <label for="guestelephone" class="field-label">Celular</label>
+    <label for="guestelephone" class="field prepend-icon">
+      <input type="text" name="guestelephone" id="guestelephone" class="gui-input" required="" placeholder="Telephone/Mobile Number">
+      <span class="field-icon"><i class="fa fa-phone-square"></i></span>  
+    </label>
+    </div>
+  </div>
+    <div class="frm-row">
+  <div class="section colm colm6">
+    <label for="adults" class="field-label">Cuantas Personas</label>
+    <label for="adults" class="field prepend-icon">
+      <input type="number" id="adults" name="adults" class="gui-input" required="" placeholder="Number of adults">
+      <span class="field-icon"><i class="fa fa-users"></i></span>  
+    </label>
+  </div>
+  
+  <div class="section colm colm6">
+    <label for="children" class="field-label">Cuantos son Niños?</label>
+    <label for="children" class="field prepend-icon">
+      <input type="number" id="children" name="children" class="gui-input" required="" placeholder="Number of children">
+      <span class="field-icon"><i class="fa fa-users"></i></span>  
+    </label>
+    </div>
+  </div>
+    <div class="frm-row">
+  <div class="section colm colm6">
+    <label for="checkin" class="field-label">Fecha</label>
+    <label for="checkin" class="field prepend-icon">
+      <input type="text" id="checkin" name="checkin" class="gui-input" required="" placeholder="mm/dd/yyyy">
+      <span class="field-icon"><i class="fa fa-calendar"></i></span>  
+    </label>
+  </div>
+  
+  <div class="section reservation-time">
+    <form action="#">
+      <label for="time">Horario da Reserva</label>
+      <select name="horarios" id="horarios">
+        <option value="veinte">20:00</option>
+        <option value="veinte_una">21:00</option>
+        <option value="veinte_dos">22:00</option>
+        <option value="veinte_tres">23:00</option>
+  </div>
+    </div>
+    <div class= "extras">
+    <label for="comment" class="field-label">Alguna otra cosa que deseas para esa noche,como una botella de champagne, músicos...?</label>
+    <div class="section">
+    <label for="comment" class="field-label">Alguna otra cosa que deseas para esa noche,como una botella de champagne, músicos...?</label>
+    <label for="comment" class="field prepend-icon">
+    <p><strong>Cuentenos si necesita algo más, será un placer atenderle:</p></strong> 
+    <textarea class="gui-textarea" id="comment" name="comment" placeholder="Cuentenos si necesita algo más, será un placer atenderle:una botella de champagne, músicos...?"></textarea>
+    <span class="field-icon"><i class="fa fa-comments"></i></span>
+    <span class="input-hint"> 
+      
+      
+    </span>   
+  </label>
+  <div class="spacer-t20 spacer-b30">
+  <div class="tagline"><span>Por favor, responda la seguiente pregunta para su mejor estadía con nosotros</span></div>
+  </div>
+    <div class="frm-row">
+  <div class="option-group field">
+  
+    <div class="section colm colm6">
+      <label class="switch">
+      <span>Venís_con_mascota?</span>
+        <input type="checkbox" name="switch1" id="switch1" value="switch1">
+        
+        <span class="switch-label" data-on="YES" data-off="NO"></span>
+        
+      </label>
+    </div>
+        
+   
+    </div>
+    </div>
+
+    </div>
+      </div>
+      <div class="form-footer">
+        <button type="submit" class="button btn-primary">Confirmar Reservas</button>
+        <button type="reset" class="button">Cancelar</button>
+      </div>
+      
+    </form>
+  </div>
+    
+  </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+
+</html>
